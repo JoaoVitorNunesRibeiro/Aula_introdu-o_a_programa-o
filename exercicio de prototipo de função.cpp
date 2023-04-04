@@ -27,16 +27,16 @@ int main() {
     double x = 4;
     double y = 8;
 
-    // soma
+    //adição
     double resultado = somar(x, y);
     cout << x << " + " << y << " = " << resultado << endl;
-    // subtração
+    //subtração
     resultado = subtrair(x, y);
     cout << x << " - " << y << " = " << resultado << endl;
     //multiplicação
     resultado = multiplicar(x, y);
     cout << x << " * " << y << " = " << resultado << endl;
-    // divisão
+    //divisão
     resultado = dividir(x, y);
     cout << x << " / " << y << " = " << resultado << endl;
 
